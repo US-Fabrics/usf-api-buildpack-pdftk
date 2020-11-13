@@ -7,10 +7,9 @@ This will also hard force some default ENV variables like port, PATH, LD_LIBRARY
 much of this is modeled from a similar project at https://github.com/ardalann/heroku-pdftk-buildpack
 ```
 
-
 ## How to use
 
-1. Add this buildpack to your app. 
+1. Add this buildpack to your app.  Specify this url https://github.com/US-Fabrics/usf-api-buildpack-pdftk
 
 ## How to upgrade PDFTK
 
@@ -18,7 +17,7 @@ You'll need to do this if heroku moves to a new version.  USF is currently runni
 
 `heroku create`
 
-`heroku config:set BUILDPACK_URL=https://github.com/ddollar/heroku-buildpack-apt`
+`heroku config:set BUILDPACK_URL=https://github.com/US-Fabrics/usf-api-buildpack-pdftk`
 
 `git push heroku master`
 
